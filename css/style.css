@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: rgb(12, 12, 12);  
+}
+
+.nav-link{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-link:hover{
+    color: #41edc8;
+}
+
+.navbar-brand{
+    color: #41edc8;
+    font-size: 30px;
+    font-weight: 700;
+    transition: all linear .3s;
+}
+
+.navbar-brand:hover{
+    color: deeppink;
+    transition: all linear .3s;
+}
+
+.btn-danger{
+    background-color: #41edc8;
+    color: black;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-danger:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.banner h1{
+    color: aliceblue;
+}
+.banner p{
+    color: rgb(183, 190, 196);
+}
+
+.banner .btn{
+    padding: 0.5em 1em;
+    border-radius: 2em;
+}
+.title{
+    color: rgb(184, 186, 187);
+}
+
+.text-custom{
+    color: rgb(184, 186, 187);
+}
+
+.text-muted{
+    color: rgb(184, 186, 187) !important;
+}
+
+.media{
+    background-color: deeppink;
+}
+
+.media h6{
+    font-size: 20px;
+}
+
+.media h6 a{
+    text-align: center;
+}
+
+@media screen and (max-width: 700px){
+    .banner .mediaaa{
+        display: none;
+    }
+}
